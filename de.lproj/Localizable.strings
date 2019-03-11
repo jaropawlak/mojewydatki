@@ -1,0 +1,60 @@
+/*
+ Localizable.strings
+ Ausgaben
+ 
+ Created by jarek on 13.06.2013.
+ Copyright (c) 2013 majatech. All rights reserved.
+ */
+
+//NewExpenseController
+
+"EntryAdded" = "Eintrag hinzugefügt";
+"NewExpense" = "Neue Ausgabe";
+"Amount" = "Betrag";
+"Description" = "Beschreibung";
+"Date" = "Datum";
+"AddExpense" = "Ausgabe hinzufügen";
+
+"Cash" = "Bargeld";
+"Card" = "Karte";
+"Transfer" = "Überweisung";
+"AtmMachine" = "Geldautomat";
+
+//kategorie
+"Category" = "Kategorie";
+"No Category" = "Keine Kategorie";
+"Budget categories" = "KBudgetkategorien";
+"All" = "Alle";
+"Category                         Expense limit" ="Kategorie                     Ausgabenlimit";  
+"Budget" = "Budget";
+
+//co nowego // Was gibt es neues
+"What's new" = "Was gibt es neues:";
+"What's new in this version" = "Bugfixe und Verbesserungen zu den Lokalisierungen";
+
+//ShowHistoryController
+"From" = "Von";
+"To" = "Bis";
+"ExpenseTypeFilterLabel" = "Suche nach Operationen";
+"SearchExpenses" = "Suche nach Ausgaben";
+"SavedExpenses" = "Ausgaben";
+
+//Expenses
+"PaymentType" = "Typ";
+"AtmWithdraw" = "Geldautomat Auszahlung";
+
+
+"Clear" = "Räumen";
+
+"OK" = "OK";
+"Photo" = "Mache ein Foto";
+"Library" = "Aus der Sammlung auswählen";
+"Cancel" = "Abbrechen";
+"chooseInput" = "Wähle";
+
+"Information" = "Info";
+"Updated" = "Gespeichert";
+"Update" = "Speichern";
+
+// whatnew : Es wurde die Moeglichkeit hinzugefuegt die gespeicherten Ausgaben zu editieren, Fotos hinzuzufuegen und Informationen ueber Einkaufe zu teilen
+

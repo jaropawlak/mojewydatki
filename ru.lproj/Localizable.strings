@@ -1,0 +1,60 @@
+/*
+  Localizable.strings
+ 
+ Wydatki               расходы
+ 
+ Created by jarek on 13.06.2013.
+ 
+ Copyright (c) 2013 majatech. All rights reserved.
+ 
+ */
+//NewExpenseController
+
+"EntryAdded" = "расход добавлен";
+"NewExpense" = "новые расходы"; 
+"Amount" = "сумма"; 
+"Description" = "описание"; 
+"Date" = "дата"; 
+"AddExpense" = "ввод расхода";
+"Cash" = "наличные"; 
+"Card" = "карта"; 
+"Transfer" = "перевод";
+"AtmMachine" = "банкомат";
+
+// kategorie i budżety
+"Category" = "Категория";
+"No Category" = "Нет категории";
+"Budget categories" = "Категории бюджетов";
+"All" = "Все";
+"Category                         Expense limit" ="Категория                Лимит расходов";
+"Budget" = "Бюджет";
+
+//co nowego
+"What's new" = "Новиники:";
+"What's new in this version" = "Исправления и улучшения относительно локализации.";
+
+
+
+//ShowHistoryController
+"From" = "С"; 
+"To" = "ПО";
+"ExpenseTypeFilterLabel" = "операции для поиска"; 
+"SearchExpenses" = "искать расходы";  
+"SavedExpenses" = "расходы"; 
+//Expenses
+"PaymentType" = "тип";
+"AtmWithdraw" = "снятие денег в банкомате";
+
+
+
+"Clear" = "чистить";
+
+"OK" = "OK";
+"Photo" = "Сделать снимок";
+"Library" = "выбрать снимок из альбома";
+"Cancel" = "отмена";
+"chooseInput" = "сделать выбор";
+
+"Information" = "информация";
+"Updated" = "Сохранено";
+"Update" = "сохранить";

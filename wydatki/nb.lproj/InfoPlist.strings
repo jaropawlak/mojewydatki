@@ -1,0 +1,6 @@
+/* Localized versions of Info.plist keys */
+"CFBundleDisplayName"="Utgifter";
+"NSLocationAlwaysUsageDescription" = "Butikker hvor du tilbringer pengene, setter kategorien automatisk";
+"NSLocationWhenInUseUsageDescription" = "Butikker hvor du tilbringer pengene, setter kategorien automatisk";
+"NSPhotoLibraryUsageDescription" ="Bruk bilde i stedet for beskrivelse";
+"NSCameraUsageDescription" ="Bruk bilde i stedet for beskrivelse";

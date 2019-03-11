@@ -1,0 +1,150 @@
+
+/* Class = "UIButton"; normalTitle = "Clear"; ObjectID = "02l-ya-Ey5"; */
+"02l-ya-Ey5.normalTitle" = "Clear";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "04e-8L-dLd"; */
+"04e-8L-dLd.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "0e5-eQ-uqa"; */
+"0e5-eQ-uqa.text" = "Label";
+
+/* Class = "UILabel"; text = "Operacje do wyszukania"; ObjectID = "1Sq-SK-QTL"; */
+"1Sq-SK-QTL.text" = "Operacje do wyszukania";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "1Tw-X3-DLU"; */
+"1Tw-X3-DLU.text" = "Label";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "3gh-TB-wiV"; */
+"3gh-TB-wiV.text" = "Detail";
+
+/* Class = "UILabel"; text = "Przelewy"; ObjectID = "4Y9-c3-bZL"; */
+"4Y9-c3-bZL.text" = "Przelewy";
+
+/* Class = "UILabel"; text = "Od"; ObjectID = "6Xw-gW-tZX"; */
+"6Xw-gW-tZX.text" = "Od";
+
+/* Class = "UITextField"; placeholder = "Enter limit"; ObjectID = "6gO-Zz-bag"; */
+"6gO-Zz-bag.placeholder" = "skriver grensen";
+
+/* Class = "UITextField"; text = "Enter limit"; ObjectID = "6gO-Zz-bag"; */
+"6gO-Zz-bag.text" = "Enter limit";
+
+/* Class = "UILabel"; text = "Typ"; ObjectID = "7Tn-8A-SD1"; */
+"7Tn-8A-SD1.text" = "Typ";
+
+/* Class = "UILabel"; text = "Karta"; ObjectID = "8Kh-YF-kv7"; */
+"8Kh-YF-kv7.text" = "Karta";
+
+/* Class = "UILabel"; text = "Data"; ObjectID = "Cum-Pd-ZpM"; */
+"Cum-Pd-ZpM.text" = "Data";
+
+/* Class = "UINavigationItem"; title = "Budżet"; ObjectID = "GdR-Xr-aV5"; */
+"GdR-Xr-aV5.title" = "Budżet";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Gze-Dj-MiV"; */
+"Gze-Dj-MiV.text" = "Label";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "HBB-g6-Nzv"; */
+"HBB-g6-Nzv.text" = "Detail";
+
+/* Class = "UIButton"; normalTitle = "ExpenseType"; ObjectID = "HV9-LQ-k2B"; */
+"HV9-LQ-k2B.normalTitle" = "ExpenseType";
+
+/* Class = "UILabel"; text = "Opis"; ObjectID = "JHM-Ue-sXB"; */
+"JHM-Ue-sXB.text" = "Opis";
+
+/* Class = "UIButton"; normalTitle = "Category"; ObjectID = "Jiy-dA-LPg"; */
+"Jiy-dA-LPg.normalTitle" = "Category";
+
+/* Class = "UILabel"; text = "Bankomat"; ObjectID = "KGg-t6-J3a"; */
+"KGg-t6-J3a.text" = "Bankomat";
+
+/* Class = "UILabel"; text = "Data"; ObjectID = "L1e-SR-2MM"; */
+"L1e-SR-2MM.text" = "Data";
+
+/* Class = "UILabel"; text = "Amount"; ObjectID = "LjX-tJ-5iK"; */
+"LjX-tJ-5iK.text" = "Amount";
+
+/* Class = "UILabel"; text = "Kwota"; ObjectID = "Lzw-Gh-6TR"; */
+"Lzw-Gh-6TR.text" = "Kwota";
+
+/* Class = "UINavigationItem"; title = "Nowy wydatek"; ObjectID = "MuF-Ue-sMG"; */
+"MuF-Ue-sMG.title" = "Nowy wydatek";
+
+/* Class = "UILabel"; text = "Opis"; ObjectID = "Naj-Bg-24C"; */
+"Naj-Bg-24C.text" = "Opis";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Qbi-5J-KWI"; */
+"Qbi-5J-KWI.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "UFe-67-w0m"; */
+"UFe-67-w0m.text" = "Label";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "VN0-B9-4kj"; */
+"VN0-B9-4kj.text" = "Title";
+
+/* Class = "UIButton"; normalTitle = "P"; ObjectID = "X3E-xO-eF9"; */
+"X3E-xO-eF9.normalTitle" = "P";
+
+/* Class = "UINavigationItem"; title = "Title"; ObjectID = "ch7-Og-q8L"; */
+"ch7-Og-q8L.title" = "Title";
+
+/* Class = "UILabel"; text = "Data"; ObjectID = "dYo-bn-c8A"; */
+"dYo-bn-c8A.text" = "Data";
+
+/* Class = "UITextField"; placeholder = "Enter name"; ObjectID = "f6V-xW-L3O"; */
+"f6V-xW-L3O.placeholder" = "oppgi navnet";
+
+/* Class = "UITextField"; text = "Enter name"; ObjectID = "f6V-xW-L3O"; */
+"f6V-xW-L3O.text" = "Enter name";
+
+/* Class = "UIButton"; normalTitle = "go"; ObjectID = "jdF-QW-dEX"; */
+"jdF-QW-dEX.normalTitle" = "go";
+
+/* Class = "UILabel"; text = "Do"; ObjectID = "kqO-OC-N2O"; */
+"kqO-OC-N2O.text" = "Do";
+
+/* Class = "UIButton"; normalTitle = "Update"; ObjectID = "mgg-zW-2D2"; */
+"mgg-zW-2D2.normalTitle" = "Update";
+
+/* Class = "UILabel"; text = "Kategoria"; ObjectID = "nvk-79-48B"; */
+"nvk-79-48B.text" = "Kategoria";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "pee-sU-CfH"; */
+"pee-sU-CfH.title" = "Item";
+
+/* Class = "UINavigationItem"; title = "Zapisane wydatki"; ObjectID = "qur-qT-6wX"; */
+"qur-qT-6wX.title" = "Zapisane wydatki";
+
+/* Class = "UITabBarItem"; title = "Item 2"; ObjectID = "rv5-RT-xU8"; */
+"rv5-RT-xU8.title" = "Item 2";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "sZg-S0-D4o"; */
+"sZg-S0-D4o.text" = "Title";
+
+/* Class = "UIButton"; normalTitle = "Category"; ObjectID = "tao-AV-6hQ"; */
+"tao-AV-6hQ.normalTitle" = "Category";
+
+/* Class = "UILabel"; text = "Gotówka"; ObjectID = "tbi-X7-tbx"; */
+"tbi-X7-tbx.text" = "Gotówka";
+
+/* Class = "UILabel"; text = "Kwota"; ObjectID = "vnv-iJ-7Rg"; */
+"vnv-iJ-7Rg.text" = "Kwota";
+
+/* Class = "UITabBarItem"; title = "Wydatek"; ObjectID = "vqQ-1Z-YDZ"; */
+"vqQ-1Z-YDZ.title" = "Wydatek";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "waS-Z5-zVn"; */
+"waS-Z5-zVn.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "xjP-K1-5Rw"; */
+"xjP-K1-5Rw.text" = "Label";
+
+/* Class = "UISegmentedControl"; z80-TW-oVg.segmentTitles[0] = "First"; ObjectID = "z80-TW-oVg"; */
+"z80-TW-oVg.segmentTitles[0]" = "First";
+
+/* Class = "UISegmentedControl"; z80-TW-oVg.segmentTitles[1] = "Second"; ObjectID = "z80-TW-oVg"; */
+"z80-TW-oVg.segmentTitles[1]" = "Second";
+
+/* Class = "UISegmentedControl"; z80-TW-oVg.segmentTitles[3] = "Cashout atm"; ObjectID = "z80-TW-oVg"; */
+"z80-TW-oVg.segmentTitles[3]" = "Cashout atm";

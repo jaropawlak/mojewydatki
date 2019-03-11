@@ -1,0 +1,949 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF3117A81A00362900C6AF2B /* mojeWydatkiNowaIkona57.png in Resources */ = {isa = PBXBuildFile; fileRef = EF3117A51A00362900C6AF2B /* mojeWydatkiNowaIkona57.png */; };
+		EF3117A91A00362900C6AF2B /* mojeWydatkiNowaIkona114.png in Resources */ = {isa = PBXBuildFile; fileRef = EF3117A61A00362900C6AF2B /* mojeWydatkiNowaIkona114.png */; };
+		EF3117AA1A00362900C6AF2B /* mojeWydatkiNowaIkona120.png in Resources */ = {isa = PBXBuildFile; fileRef = EF3117A71A00362900C6AF2B /* mojeWydatkiNowaIkona120.png */; };
+		EF31AF3E196D83CE00042864 /* flag_64.png in Resources */ = {isa = PBXBuildFile; fileRef = EF31AF3D196D83CE00042864 /* flag_64.png */; };
+		EF333E461ACBD20D00BA4463 /* SZTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF333E451ACBD20D00BA4463 /* SZTextView.m */; };
+		EF333E501ACD71E800BA4463 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = EF333E4F1ACD71E800BA4463 /* UIView+Toast.m */; };
+		EF377AB919BE38BD0021C22F /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EF377AB719BE38B40021C22F /* libz.dylib */; };
+		EF377AC719C0D80D0021C22F /* AdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA9B9D519C094CE0067C906 /* AdViewController.m */; };
+		EF3A61261959BC2500122A65 /* NSDate+Reporting.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3A61251959BC2500122A65 /* NSDate+Reporting.m */; };
+		EF52C334180F30810002AEEB /* UIViewController+ImageCaptureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF52C333180F30810002AEEB /* UIViewController+ImageCaptureViewController.m */; };
+		EF5B74AB180975FF00C34A90 /* ImagePreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5B74AA180975FF00C34A90 /* ImagePreviewViewController.m */; };
+		EF69852419F80294001BC0F5 /* CommonExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EF69852319F80294001BC0F5 /* CommonExtensions.m */; };
+		EF69853619F849D0001BC0F5 /* BudgetCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = EF69853519F849D0001BC0F5 /* BudgetCategory.m */; };
+		EF69853B19F849D1001BC0F5 /* Expense.m in Sources */ = {isa = PBXBuildFile; fileRef = EF69853A19F849D1001BC0F5 /* Expense.m */; };
+		EF69853F19FC1449001BC0F5 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF69853E19FC1449001BC0F5 /* EventKit.framework */; };
+		EF69854319FC148C001BC0F5 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF69854119FC1483001BC0F5 /* EventKitUI.framework */; };
+		EF71ACF31951CD5500420D4A /* BudgetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF71ACF21951CD5500420D4A /* BudgetViewController.m */; };
+		EF80DC5B176EDEBE00EE2755 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF80DC5D176EDEBE00EE2755 /* Localizable.strings */; };
+		EF819A6C1754DD2600A1F6CD /* ShowHistoryControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF819A6B1754DD2600A1F6CD /* ShowHistoryControllerViewController.m */; };
+		EF819A6F1754F34300A1F6CD /* ExpensesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF819A6E1754F34300A1F6CD /* ExpensesTableViewController.m */; };
+		EF819A731754F42C00A1F6CD /* ExpenseTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF819A721754F42C00A1F6CD /* ExpenseTableCell.m */; };
+		EF84674A17548DE100A0AA9B /* NewExpenseController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF84674917548DE100A0AA9B /* NewExpenseController.m */; };
+		EF84862B1753EDF2001DCAB8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF84862A1753EDF2001DCAB8 /* UIKit.framework */; };
+		EF84862D1753EDF2001DCAB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF84862C1753EDF2001DCAB8 /* Foundation.framework */; };
+		EF84862F1753EDF2001DCAB8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF84862E1753EDF2001DCAB8 /* CoreGraphics.framework */; };
+		EF8486351753EDF2001DCAB8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF8486331753EDF2001DCAB8 /* InfoPlist.strings */; };
+		EF8486371753EDF2001DCAB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8486361753EDF2001DCAB8 /* main.m */; };
+		EF84863B1753EDF2001DCAB8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF84863A1753EDF2001DCAB8 /* AppDelegate.m */; };
+		EF84863D1753EDF2001DCAB8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EF84863C1753EDF2001DCAB8 /* Default.png */; };
+		EF84863F1753EDF2001DCAB8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF84863E1753EDF2001DCAB8 /* Default@2x.png */; };
+		EF8486411753EDF2001DCAB8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF8486401753EDF2001DCAB8 /* Default-568h@2x.png */; };
+		EF8486441753EDF2001DCAB8 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF8486421753EDF2001DCAB8 /* MainStoryboard_iPhone.storyboard */; };
+		EF8486471753EDF2001DCAB8 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF8486451753EDF2001DCAB8 /* MainStoryboard_iPad.storyboard */; };
+		EF84864A1753EDF2001DCAB8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8486491753EDF2001DCAB8 /* ViewController.m */; };
+		EF8486531753EDF2001DCAB8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF84862A1753EDF2001DCAB8 /* UIKit.framework */; };
+		EF8486541753EDF2001DCAB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF84862C1753EDF2001DCAB8 /* Foundation.framework */; };
+		EF84865C1753EDF2001DCAB8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF84865A1753EDF2001DCAB8 /* InfoPlist.strings */; };
+		EF84865F1753EDF2001DCAB8 /* wydatkiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF84865E1753EDF2001DCAB8 /* wydatkiTests.m */; };
+		EF84866A1753EE1D001DCAB8 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF8486681753EE1D001DCAB8 /* Model.xcdatamodeld */; };
+		EF85FA5B1754069C000DD073 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF85FA5A1754069C000DD073 /* CoreData.framework */; };
+		EF887ABE1ACEE3A7005018D8 /* UIView+Animations.m in Sources */ = {isa = PBXBuildFile; fileRef = EF887ABD1ACEE3A7005018D8 /* UIView+Animations.m */; };
+		EF887AC11ACEE47A005018D8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF887AC01ACEE47A005018D8 /* QuartzCore.framework */; };
+		EF887ACB1AD1D1A7005018D8 /* FAImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF887AC51AD1D1A7005018D8 /* FAImageView.m */; };
+		EF887ACD1AD1D1A7005018D8 /* NSString+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = EF887AC71AD1D1A7005018D8 /* NSString+FontAwesome.m */; };
+		EF887ACF1AD1D1A7005018D8 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF887AC81AD1D1A7005018D8 /* FontAwesome.ttf */; };
+		EF887AD11AD1D1A7005018D8 /* UIFont+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = EF887ACA1AD1D1A7005018D8 /* UIFont+FontAwesome.m */; };
+		EF8FBF491A00B44E00CCED76 /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF3117AD1A00431300C6AF2B /* Images-2.xcassets */; };
+		EF964D0217C94E9C003E1E43 /* Moje wydatki free-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF964D0117C94E9C003E1E43 /* Moje wydatki free-Info.plist */; };
+		EFAA758B1817CCEF0049C306 /* photo.png in Resources */ = {isa = PBXBuildFile; fileRef = EFAA758A1817CCEF0049C306 /* photo.png */; };
+		EFAE79DE17C2558F00E0CEA2 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFAE79DD17C2558F00E0CEA2 /* Security.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		EFC439F0195224A5008ECC50 /* BudgetTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC439EF195224A5008ECC50 /* BudgetTableViewCell.m */; };
+		EFCAF20B1769CFFC004EE50F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFCAF20A1769CFFC004EE50F /* CFNetwork.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		EFCAF20D1769D005004EE50F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFCAF20C1769D005004EE50F /* SystemConfiguration.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		EFCAF20F1769D00E004EE50F /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFCAF20E1769D00E004EE50F /* StoreKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		EFE6BBD719616C0E0054E055 /* ExpenseMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE6BBD619616C0E0054E055 /* ExpenseMapViewController.m */; };
+		EFE6BBDA19616C9E0054E055 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFE6BBD919616C9E0054E055 /* CoreLocation.framework */; };
+		EFE6BBDC19616CA40054E055 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFE6BBDB19616CA30054E055 /* MapKit.framework */; };
+		EFEF61A117FC7450005E351E /* ExpenseAddedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFEF61A017FC7450005E351E /* ExpenseAddedViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF8486551753EDF2001DCAB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF84861F1753EDF2001DCAB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF8486261753EDF2001DCAB8;
+			remoteInfo = wydatki;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EFAFD86B19EBC4BD00CD9B5A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EF3117A51A00362900C6AF2B /* mojeWydatkiNowaIkona57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mojeWydatkiNowaIkona57.png; path = graphics/mojeWydatkiNowaIkona57.png; sourceTree = "<group>"; };
+		EF3117A61A00362900C6AF2B /* mojeWydatkiNowaIkona114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mojeWydatkiNowaIkona114.png; path = graphics/mojeWydatkiNowaIkona114.png; sourceTree = "<group>"; };
+		EF3117A71A00362900C6AF2B /* mojeWydatkiNowaIkona120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mojeWydatkiNowaIkona120.png; path = graphics/mojeWydatkiNowaIkona120.png; sourceTree = "<group>"; };
+		EF3117AB1A00363F00C6AF2B /* mojeWydatkiNowaIkonaFREE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mojeWydatkiNowaIkonaFREE.png; path = graphics/mojeWydatkiNowaIkonaFREE.png; sourceTree = "<group>"; };
+		EF3117AD1A00431300C6AF2B /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = "Images-2.xcassets"; path = "Moje wydatki free/Images-2.xcassets"; sourceTree = "<group>"; };
+		EF31AF3D196D83CE00042864 /* flag_64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = flag_64.png; path = graphics/flag_64.png; sourceTree = "<group>"; };
+		EF333E441ACBD20D00BA4463 /* SZTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SZTextView.h; path = submodules/SZTextView/Classes/SZTextView.h; sourceTree = "<group>"; };
+		EF333E451ACBD20D00BA4463 /* SZTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SZTextView.m; path = submodules/SZTextView/Classes/SZTextView.m; sourceTree = "<group>"; };
+		EF333E4E1ACD71E800BA4463 /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Toast.h"; path = "submodules/toast/Toast/Toast/UIView+Toast.h"; sourceTree = "<group>"; };
+		EF333E4F1ACD71E800BA4463 /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Toast.m"; path = "submodules/toast/Toast/Toast/UIView+Toast.m"; sourceTree = "<group>"; };
+		EF377AB719BE38B40021C22F /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		EF377ABA19BF52B00021C22F /* Model_photo_categories_indexBudget.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model_photo_categories_indexBudget.xcdatamodel; sourceTree = "<group>"; };
+		EF3A61241959BC2500122A65 /* NSDate+Reporting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Reporting.h"; sourceTree = "<group>"; };
+		EF3A61251959BC2500122A65 /* NSDate+Reporting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Reporting.m"; sourceTree = "<group>"; };
+		EF3A613C196602F700122A65 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		EF3A613E1966031A00122A65 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		EF3A61401966035700122A65 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		EF3A6142196604B000122A65 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		EF52C332180F30810002AEEB /* UIViewController+ImageCaptureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+ImageCaptureViewController.h"; path = "wydatki/UIViewController+ImageCaptureViewController.h"; sourceTree = "<group>"; };
+		EF52C333180F30810002AEEB /* UIViewController+ImageCaptureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+ImageCaptureViewController.m"; path = "wydatki/UIViewController+ImageCaptureViewController.m"; sourceTree = "<group>"; };
+		EF5B74A9180975FF00C34A90 /* ImagePreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImagePreviewViewController.h; path = wydatki/ImagePreviewViewController.h; sourceTree = "<group>"; };
+		EF5B74AA180975FF00C34A90 /* ImagePreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImagePreviewViewController.m; path = wydatki/ImagePreviewViewController.m; sourceTree = "<group>"; };
+		EF5E77691FCC49B100B1BA73 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		EF5E776B1FCC49DC00B1BA73 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		EF5E776D1FCC49F300B1BA73 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		EF5E776F1FCC4A1D00B1BA73 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		EF69852219F80294001BC0F5 /* CommonExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonExtensions.h; sourceTree = "<group>"; };
+		EF69852319F80294001BC0F5 /* CommonExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonExtensions.m; sourceTree = "<group>"; };
+		EF69852919F8427A001BC0F5 /* Model_category_renamed.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model_category_renamed.xcdatamodel; sourceTree = "<group>"; };
+		EF69853419F849D0001BC0F5 /* BudgetCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BudgetCategory.h; path = wydatki/BudgetCategory.h; sourceTree = "<group>"; };
+		EF69853519F849D0001BC0F5 /* BudgetCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BudgetCategory.m; path = wydatki/BudgetCategory.m; sourceTree = "<group>"; };
+		EF69853919F849D1001BC0F5 /* Expense.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Expense.h; path = wydatki/Expense.h; sourceTree = "<group>"; };
+		EF69853A19F849D1001BC0F5 /* Expense.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Expense.m; path = wydatki/Expense.m; sourceTree = "<group>"; };
+		EF69853E19FC1449001BC0F5 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		EF69854119FC1483001BC0F5 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		EF71ACF01951C41500420D4A /* Model_photo_categories.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model_photo_categories.xcdatamodel; sourceTree = "<group>"; };
+		EF71ACF11951CD5500420D4A /* BudgetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BudgetViewController.h; sourceTree = "<group>"; };
+		EF71ACF21951CD5500420D4A /* BudgetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BudgetViewController.m; sourceTree = "<group>"; };
+		EF7C57D417FB20280056BE88 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		EF7C57D617FB203B0056BE88 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		EF7C57D817FB20470056BE88 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		EF7EF97B1FD68E7100565EEF /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		EF7EF97D1FD68E9300565EEF /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		EF7EF97F1FD68EC600565EEF /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		EF80DC5C176EDEBE00EE2755 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		EF80DC5E176EDED300EE2755 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		EF80DC5F176EE22A00EE2755 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF819A6A1754DD2600A1F6CD /* ShowHistoryControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShowHistoryControllerViewController.h; path = wydatki/ShowHistoryControllerViewController.h; sourceTree = "<group>"; };
+		EF819A6B1754DD2600A1F6CD /* ShowHistoryControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShowHistoryControllerViewController.m; path = wydatki/ShowHistoryControllerViewController.m; sourceTree = "<group>"; };
+		EF819A6D1754F34300A1F6CD /* ExpensesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExpensesTableViewController.h; path = wydatki/ExpensesTableViewController.h; sourceTree = "<group>"; };
+		EF819A6E1754F34300A1F6CD /* ExpensesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExpensesTableViewController.m; path = wydatki/ExpensesTableViewController.m; sourceTree = "<group>"; };
+		EF819A711754F42C00A1F6CD /* ExpenseTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExpenseTableCell.h; path = wydatki/ExpenseTableCell.h; sourceTree = "<group>"; };
+		EF819A721754F42C00A1F6CD /* ExpenseTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExpenseTableCell.m; path = wydatki/ExpenseTableCell.m; sourceTree = "<group>"; };
+		EF84674817548DE100A0AA9B /* NewExpenseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewExpenseController.h; sourceTree = "<group>"; };
+		EF84674917548DE100A0AA9B /* NewExpenseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewExpenseController.m; sourceTree = "<group>"; };
+		EF8486271753EDF2001DCAB8 /* Moje wydatki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Moje wydatki.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF84862A1753EDF2001DCAB8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EF84862C1753EDF2001DCAB8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EF84862E1753EDF2001DCAB8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EF8486321753EDF2001DCAB8 /* wydatki-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "wydatki-Info.plist"; sourceTree = "<group>"; };
+		EF8486341753EDF2001DCAB8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF8486361753EDF2001DCAB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF8486381753EDF2001DCAB8 /* wydatki-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "wydatki-Prefix.pch"; sourceTree = "<group>"; };
+		EF8486391753EDF2001DCAB8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF84863A1753EDF2001DCAB8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF84863C1753EDF2001DCAB8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		EF84863E1753EDF2001DCAB8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		EF8486401753EDF2001DCAB8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		EF8486481753EDF2001DCAB8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF8486491753EDF2001DCAB8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF8486501753EDF2001DCAB8 /* wydatkiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wydatkiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF8486591753EDF2001DCAB8 /* wydatkiTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "wydatkiTests-Info.plist"; sourceTree = "<group>"; };
+		EF84865B1753EDF2001DCAB8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF84865D1753EDF2001DCAB8 /* wydatkiTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wydatkiTests.h; sourceTree = "<group>"; };
+		EF84865E1753EDF2001DCAB8 /* wydatkiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wydatkiTests.m; sourceTree = "<group>"; };
+		EF8486691753EE1D001DCAB8 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		EF85FA5A1754069C000DD073 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EF887ABC1ACEE3A7005018D8 /* UIView+Animations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Animations.h"; path = "Extras/UIView+Animations.h"; sourceTree = "<group>"; };
+		EF887ABD1ACEE3A7005018D8 /* UIView+Animations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Animations.m"; path = "Extras/UIView+Animations.m"; sourceTree = "<group>"; };
+		EF887AC01ACEE47A005018D8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EF887AC41AD1D1A7005018D8 /* FAImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FAImageView.h; path = "submodules/font-awesome-ios/FAImageView.h"; sourceTree = "<group>"; };
+		EF887AC51AD1D1A7005018D8 /* FAImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FAImageView.m; path = "submodules/font-awesome-ios/FAImageView.m"; sourceTree = "<group>"; };
+		EF887AC61AD1D1A7005018D8 /* NSString+FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+FontAwesome.h"; path = "submodules/font-awesome-ios/NSString+FontAwesome.h"; sourceTree = "<group>"; };
+		EF887AC71AD1D1A7005018D8 /* NSString+FontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+FontAwesome.m"; path = "submodules/font-awesome-ios/NSString+FontAwesome.m"; sourceTree = "<group>"; };
+		EF887AC81AD1D1A7005018D8 /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome.ttf; path = "submodules/font-awesome-ios/Resources/FontAwesome.ttf"; sourceTree = "<group>"; };
+		EF887AC91AD1D1A7005018D8 /* UIFont+FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIFont+FontAwesome.h"; path = "submodules/font-awesome-ios/UIFont+FontAwesome.h"; sourceTree = "<group>"; };
+		EF887ACA1AD1D1A7005018D8 /* UIFont+FontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIFont+FontAwesome.m"; path = "submodules/font-awesome-ios/UIFont+FontAwesome.m"; sourceTree = "<group>"; };
+		EF92DF8E1ADE568500EE269C /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/Localizable.strings; sourceTree = "<group>"; };
+		EF92DF901ADE618D00EE269C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainStoryboard_iPhoneFree.storyboard; sourceTree = "<group>"; };
+		EF92DF911ADE618D00EE269C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		EF92DF921ADE618D00EE269C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		EF92DF941ADE620C00EE269C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/MainStoryboard_iPhone.strings; sourceTree = "<group>"; };
+		EF92DF961ADE620E00EE269C /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/MainStoryboard_iPhone.strings; sourceTree = "<group>"; };
+		EF92DF981ADE621100EE269C /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/MainStoryboard_iPhone.strings; sourceTree = "<group>"; };
+		EF92DF9A1ADE622300EE269C /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/MainStoryboard_iPhone.strings; sourceTree = "<group>"; };
+		EF92DF9C1ADE622900EE269C /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/MainStoryboard_iPhone.strings; sourceTree = "<group>"; };
+		EF92DFA21ADFC94000EE269C /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF964D0117C94E9C003E1E43 /* Moje wydatki free-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Moje wydatki free-Info.plist"; sourceTree = SOURCE_ROOT; };
+		EFA9B9D419C094CE0067C906 /* AdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AdViewController.h; path = wydatki/AdViewController.h; sourceTree = "<group>"; };
+		EFA9B9D519C094CE0067C906 /* AdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AdViewController.m; path = wydatki/AdViewController.m; sourceTree = "<group>"; };
+		EFAA758A1817CCEF0049C306 /* photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo.png; sourceTree = "<group>"; };
+		EFAE79DD17C2558F00E0CEA2 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		EFAE79DF17C2559A00E0CEA2 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		EFAFD85B19EBC4BC00CD9B5A /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		EFAFD85F19EBC4BC00CD9B5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFAFD86019EBC4BD00CD9B5A /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
+		EFAFD86119EBC4BD00CD9B5A /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
+		EFAFD86319EBC4BD00CD9B5A /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		EFC439EE195224A5008ECC50 /* BudgetTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BudgetTableViewCell.h; path = wydatki/BudgetTableViewCell.h; sourceTree = "<group>"; };
+		EFC439EF195224A5008ECC50 /* BudgetTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BudgetTableViewCell.m; path = wydatki/BudgetTableViewCell.m; sourceTree = "<group>"; };
+		EFCAF20A1769CFFC004EE50F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		EFCAF20C1769D005004EE50F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		EFCAF20E1769D00E004EE50F /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		EFD695AC1806D0A1005614D8 /* Model_photo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model_photo.xcdatamodel; sourceTree = "<group>"; };
+		EFE6BBD519616C0E0054E055 /* ExpenseMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpenseMapViewController.h; sourceTree = "<group>"; };
+		EFE6BBD619616C0E0054E055 /* ExpenseMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpenseMapViewController.m; sourceTree = "<group>"; };
+		EFE6BBD919616C9E0054E055 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		EFE6BBDB19616CA30054E055 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		EFE7496F177ABF3C003AAFA8 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		EFE74970177ABF61003AAFA8 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		EFE74972177B0A3E003AAFA8 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EFE74973177B0A3F003AAFA8 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EFEF619F17FC7450005E351E /* ExpenseAddedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpenseAddedViewController.h; sourceTree = "<group>"; };
+		EFEF61A017FC7450005E351E /* ExpenseAddedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpenseAddedViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF8486241753EDF2001DCAB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF887AC11ACEE47A005018D8 /* QuartzCore.framework in Frameworks */,
+				EF69854319FC148C001BC0F5 /* EventKitUI.framework in Frameworks */,
+				EF69853F19FC1449001BC0F5 /* EventKit.framework in Frameworks */,
+				EF377AB919BE38BD0021C22F /* libz.dylib in Frameworks */,
+				EFE6BBDC19616CA40054E055 /* MapKit.framework in Frameworks */,
+				EFE6BBDA19616C9E0054E055 /* CoreLocation.framework in Frameworks */,
+				EFAE79DE17C2558F00E0CEA2 /* Security.framework in Frameworks */,
+				EFCAF20F1769D00E004EE50F /* StoreKit.framework in Frameworks */,
+				EFCAF20D1769D005004EE50F /* SystemConfiguration.framework in Frameworks */,
+				EFCAF20B1769CFFC004EE50F /* CFNetwork.framework in Frameworks */,
+				EF85FA5B1754069C000DD073 /* CoreData.framework in Frameworks */,
+				EF84862B1753EDF2001DCAB8 /* UIKit.framework in Frameworks */,
+				EF84862D1753EDF2001DCAB8 /* Foundation.framework in Frameworks */,
+				EF84862F1753EDF2001DCAB8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF84864C1753EDF2001DCAB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8486531753EDF2001DCAB8 /* UIKit.framework in Frameworks */,
+				EF8486541753EDF2001DCAB8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF333E431ACBD1F000BA4463 /* SZTextView */ = {
+			isa = PBXGroup;
+			children = (
+				EF333E441ACBD20D00BA4463 /* SZTextView.h */,
+				EF333E451ACBD20D00BA4463 /* SZTextView.m */,
+			);
+			name = SZTextView;
+			sourceTree = "<group>";
+		};
+		EF333E4D1ACD71BF00BA4463 /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				EF333E4E1ACD71E800BA4463 /* UIView+Toast.h */,
+				EF333E4F1ACD71E800BA4463 /* UIView+Toast.m */,
+			);
+			name = Toast;
+			sourceTree = "<group>";
+		};
+		EF80DC541769286700EE2755 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EF3117AD1A00431300C6AF2B /* Images-2.xcassets */,
+				EF80DC5D176EDEBE00EE2755 /* Localizable.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		EF819A701754F40C00A1F6CD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EF819A711754F42C00A1F6CD /* ExpenseTableCell.h */,
+				EF819A721754F42C00A1F6CD /* ExpenseTableCell.m */,
+				EFC439EE195224A5008ECC50 /* BudgetTableViewCell.h */,
+				EFC439EF195224A5008ECC50 /* BudgetTableViewCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		EF844E29175CA0BA00B65DE8 /* graphics */ = {
+			isa = PBXGroup;
+			children = (
+				EF3117AB1A00363F00C6AF2B /* mojeWydatkiNowaIkonaFREE.png */,
+				EF3117A51A00362900C6AF2B /* mojeWydatkiNowaIkona57.png */,
+				EF3117A61A00362900C6AF2B /* mojeWydatkiNowaIkona114.png */,
+				EF3117A71A00362900C6AF2B /* mojeWydatkiNowaIkona120.png */,
+				EF31AF3D196D83CE00042864 /* flag_64.png */,
+				EFAA758A1817CCEF0049C306 /* photo.png */,
+			);
+			name = graphics;
+			sourceTree = "<group>";
+		};
+		EF84674717548DC200A0AA9B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EF84674817548DE100A0AA9B /* NewExpenseController.h */,
+				EF84674917548DE100A0AA9B /* NewExpenseController.m */,
+				EF819A6A1754DD2600A1F6CD /* ShowHistoryControllerViewController.h */,
+				EF819A6B1754DD2600A1F6CD /* ShowHistoryControllerViewController.m */,
+				EF819A6D1754F34300A1F6CD /* ExpensesTableViewController.h */,
+				EF819A6E1754F34300A1F6CD /* ExpensesTableViewController.m */,
+				EFEF619F17FC7450005E351E /* ExpenseAddedViewController.h */,
+				EFEF61A017FC7450005E351E /* ExpenseAddedViewController.m */,
+				EF5B74A9180975FF00C34A90 /* ImagePreviewViewController.h */,
+				EF5B74AA180975FF00C34A90 /* ImagePreviewViewController.m */,
+				EF52C332180F30810002AEEB /* UIViewController+ImageCaptureViewController.h */,
+				EF52C333180F30810002AEEB /* UIViewController+ImageCaptureViewController.m */,
+				EF71ACF11951CD5500420D4A /* BudgetViewController.h */,
+				EF71ACF21951CD5500420D4A /* BudgetViewController.m */,
+				EFE6BBD519616C0E0054E055 /* ExpenseMapViewController.h */,
+				EFE6BBD619616C0E0054E055 /* ExpenseMapViewController.m */,
+				EFA9B9D419C094CE0067C906 /* AdViewController.h */,
+				EFA9B9D519C094CE0067C906 /* AdViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		EF84861E1753EDF2001DCAB8 = {
+			isa = PBXGroup;
+			children = (
+				EF887ABB1ACEE35B005018D8 /* Extras */,
+				EF80DC541769286700EE2755 /* Resources */,
+				EF844E29175CA0BA00B65DE8 /* graphics */,
+				EF819A701754F40C00A1F6CD /* Views */,
+				EF84674717548DC200A0AA9B /* Controllers */,
+				EF84866B1753EF1F001DCAB8 /* DataModel */,
+				EF8486301753EDF2001DCAB8 /* wydatki */,
+				EF8486571753EDF2001DCAB8 /* wydatkiTests */,
+				EFAFD85D19EBC4BC00CD9B5A /* wydatkiTodayExtension */,
+				EF8486291753EDF2001DCAB8 /* Frameworks */,
+				EF8486281753EDF2001DCAB8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF8486281753EDF2001DCAB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF8486271753EDF2001DCAB8 /* Moje wydatki.app */,
+				EF8486501753EDF2001DCAB8 /* wydatkiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF8486291753EDF2001DCAB8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF7EF97F1FD68EC600565EEF /* MobileCoreServices.framework */,
+				EF7EF97D1FD68E9300565EEF /* MediaPlayer.framework */,
+				EF7EF97B1FD68E7100565EEF /* CoreVideo.framework */,
+				EF5E776F1FCC4A1D00B1BA73 /* CoreMotion.framework */,
+				EF5E776D1FCC49F300B1BA73 /* CoreMedia.framework */,
+				EF5E776B1FCC49DC00B1BA73 /* OpenGLES.framework */,
+				EF5E77691FCC49B100B1BA73 /* GLKit.framework */,
+				EF887AC31AD1D131005018D8 /* FontAwesome */,
+				EF887AC01ACEE47A005018D8 /* QuartzCore.framework */,
+				EF333E4D1ACD71BF00BA4463 /* Toast */,
+				EF333E431ACBD1F000BA4463 /* SZTextView */,
+				EF69854119FC1483001BC0F5 /* EventKitUI.framework */,
+				EF69853E19FC1449001BC0F5 /* EventKit.framework */,
+				EF377AB719BE38B40021C22F /* libz.dylib */,
+				EF3A6142196604B000122A65 /* AudioToolbox.framework */,
+				EF3A61401966035700122A65 /* MessageUI.framework */,
+				EF3A613E1966031A00122A65 /* CoreTelephony.framework */,
+				EF3A613C196602F700122A65 /* AVFoundation.framework */,
+				EFE6BBDB19616CA30054E055 /* MapKit.framework */,
+				EFE6BBD919616C9E0054E055 /* CoreLocation.framework */,
+				EF7C57D817FB20470056BE88 /* Social.framework */,
+				EF7C57D617FB203B0056BE88 /* Accounts.framework */,
+				EF7C57D417FB20280056BE88 /* libsqlite3.dylib */,
+				EFAE79DF17C2559A00E0CEA2 /* AdSupport.framework */,
+				EFAE79DD17C2558F00E0CEA2 /* Security.framework */,
+				EFCAF20A1769CFFC004EE50F /* CFNetwork.framework */,
+				EFCAF20C1769D005004EE50F /* SystemConfiguration.framework */,
+				EFCAF20E1769D00E004EE50F /* StoreKit.framework */,
+				EF85FA5A1754069C000DD073 /* CoreData.framework */,
+				EF84862A1753EDF2001DCAB8 /* UIKit.framework */,
+				EF84862C1753EDF2001DCAB8 /* Foundation.framework */,
+				EF84862E1753EDF2001DCAB8 /* CoreGraphics.framework */,
+				EFAFD85B19EBC4BC00CD9B5A /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF8486301753EDF2001DCAB8 /* wydatki */ = {
+			isa = PBXGroup;
+			children = (
+				EF964CFE17C94E88003E1E43 /* MainStoryboard_iPhoneFree.storyboard */,
+				EF8486391753EDF2001DCAB8 /* AppDelegate.h */,
+				EF84863A1753EDF2001DCAB8 /* AppDelegate.m */,
+				EF8486421753EDF2001DCAB8 /* MainStoryboard_iPhone.storyboard */,
+				EF8486451753EDF2001DCAB8 /* MainStoryboard_iPad.storyboard */,
+				EF8486481753EDF2001DCAB8 /* ViewController.h */,
+				EF8486491753EDF2001DCAB8 /* ViewController.m */,
+				EF8486311753EDF2001DCAB8 /* Supporting Files */,
+				EF69852219F80294001BC0F5 /* CommonExtensions.h */,
+				EF69852319F80294001BC0F5 /* CommonExtensions.m */,
+			);
+			path = wydatki;
+			sourceTree = "<group>";
+		};
+		EF8486311753EDF2001DCAB8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF3A61241959BC2500122A65 /* NSDate+Reporting.h */,
+				EF3A61251959BC2500122A65 /* NSDate+Reporting.m */,
+				EF964D0117C94E9C003E1E43 /* Moje wydatki free-Info.plist */,
+				EF8486321753EDF2001DCAB8 /* wydatki-Info.plist */,
+				EF8486331753EDF2001DCAB8 /* InfoPlist.strings */,
+				EF8486361753EDF2001DCAB8 /* main.m */,
+				EF8486381753EDF2001DCAB8 /* wydatki-Prefix.pch */,
+				EF84863C1753EDF2001DCAB8 /* Default.png */,
+				EF84863E1753EDF2001DCAB8 /* Default@2x.png */,
+				EF8486401753EDF2001DCAB8 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF8486571753EDF2001DCAB8 /* wydatkiTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF84865D1753EDF2001DCAB8 /* wydatkiTests.h */,
+				EF84865E1753EDF2001DCAB8 /* wydatkiTests.m */,
+				EF8486581753EDF2001DCAB8 /* Supporting Files */,
+			);
+			path = wydatkiTests;
+			sourceTree = "<group>";
+		};
+		EF8486581753EDF2001DCAB8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF8486591753EDF2001DCAB8 /* wydatkiTests-Info.plist */,
+				EF84865A1753EDF2001DCAB8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF84866B1753EF1F001DCAB8 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				EF8486681753EE1D001DCAB8 /* Model.xcdatamodeld */,
+				EF69853919F849D1001BC0F5 /* Expense.h */,
+				EF69853A19F849D1001BC0F5 /* Expense.m */,
+				EF69853419F849D0001BC0F5 /* BudgetCategory.h */,
+				EF69853519F849D0001BC0F5 /* BudgetCategory.m */,
+			);
+			name = DataModel;
+			sourceTree = "<group>";
+		};
+		EF887ABB1ACEE35B005018D8 /* Extras */ = {
+			isa = PBXGroup;
+			children = (
+				EF887ABC1ACEE3A7005018D8 /* UIView+Animations.h */,
+				EF887ABD1ACEE3A7005018D8 /* UIView+Animations.m */,
+			);
+			name = Extras;
+			sourceTree = "<group>";
+		};
+		EF887AC31AD1D131005018D8 /* FontAwesome */ = {
+			isa = PBXGroup;
+			children = (
+				EF887AC41AD1D1A7005018D8 /* FAImageView.h */,
+				EF887AC51AD1D1A7005018D8 /* FAImageView.m */,
+				EF887AC61AD1D1A7005018D8 /* NSString+FontAwesome.h */,
+				EF887AC71AD1D1A7005018D8 /* NSString+FontAwesome.m */,
+				EF887AC81AD1D1A7005018D8 /* FontAwesome.ttf */,
+				EF887AC91AD1D1A7005018D8 /* UIFont+FontAwesome.h */,
+				EF887ACA1AD1D1A7005018D8 /* UIFont+FontAwesome.m */,
+			);
+			name = FontAwesome;
+			sourceTree = "<group>";
+		};
+		EFAFD85D19EBC4BC00CD9B5A /* wydatkiTodayExtension */ = {
+			isa = PBXGroup;
+			children = (
+				EFAFD86019EBC4BD00CD9B5A /* TodayViewController.h */,
+				EFAFD86119EBC4BD00CD9B5A /* TodayViewController.m */,
+				EFAFD86319EBC4BD00CD9B5A /* MainInterface.storyboard */,
+				EFAFD85E19EBC4BC00CD9B5A /* Supporting Files */,
+			);
+			path = wydatkiTodayExtension;
+			sourceTree = "<group>";
+		};
+		EFAFD85E19EBC4BC00CD9B5A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFAFD85F19EBC4BC00CD9B5A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF8486261753EDF2001DCAB8 /* Moje wydatki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF8486621753EDF2001DCAB8 /* Build configuration list for PBXNativeTarget "Moje wydatki" */;
+			buildPhases = (
+				EF8486231753EDF2001DCAB8 /* Sources */,
+				EF8486241753EDF2001DCAB8 /* Frameworks */,
+				EF8486251753EDF2001DCAB8 /* Resources */,
+				EFAFD86B19EBC4BD00CD9B5A /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Moje wydatki";
+			productName = wydatki;
+			productReference = EF8486271753EDF2001DCAB8 /* Moje wydatki.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF84864F1753EDF2001DCAB8 /* wydatkiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF8486651753EDF2001DCAB8 /* Build configuration list for PBXNativeTarget "wydatkiTests" */;
+			buildPhases = (
+				EF84864B1753EDF2001DCAB8 /* Sources */,
+				EF84864C1753EDF2001DCAB8 /* Frameworks */,
+				EF84864D1753EDF2001DCAB8 /* Resources */,
+				EF84864E1753EDF2001DCAB8 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF8486561753EDF2001DCAB8 /* PBXTargetDependency */,
+			);
+			name = wydatkiTests;
+			productName = wydatkiTests;
+			productReference = EF8486501753EDF2001DCAB8 /* wydatkiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF84861F1753EDF2001DCAB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastTestingUpgradeCheck = 0610;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = majatech;
+				TargetAttributes = {
+					EF8486261753EDF2001DCAB8 = {
+						DevelopmentTeam = M5KM7QX4X7;
+					};
+				};
+			};
+			buildConfigurationList = EF8486221753EDF2001DCAB8 /* Build configuration list for PBXProject "wydatki" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				de,
+				nb,
+				pl,
+				ru,
+				Base,
+			);
+			mainGroup = EF84861E1753EDF2001DCAB8;
+			productRefGroup = EF8486281753EDF2001DCAB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF8486261753EDF2001DCAB8 /* Moje wydatki */,
+				EF84864F1753EDF2001DCAB8 /* wydatkiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF8486251753EDF2001DCAB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8486351753EDF2001DCAB8 /* InfoPlist.strings in Resources */,
+				EF31AF3E196D83CE00042864 /* flag_64.png in Resources */,
+				EF84863D1753EDF2001DCAB8 /* Default.png in Resources */,
+				EF84863F1753EDF2001DCAB8 /* Default@2x.png in Resources */,
+				EF8486411753EDF2001DCAB8 /* Default-568h@2x.png in Resources */,
+				EF3117AA1A00362900C6AF2B /* mojeWydatkiNowaIkona120.png in Resources */,
+				EF8FBF491A00B44E00CCED76 /* Images-2.xcassets in Resources */,
+				EF8486441753EDF2001DCAB8 /* MainStoryboard_iPhone.storyboard in Resources */,
+				EF8486471753EDF2001DCAB8 /* MainStoryboard_iPad.storyboard in Resources */,
+				EF80DC5B176EDEBE00EE2755 /* Localizable.strings in Resources */,
+				EF3117A91A00362900C6AF2B /* mojeWydatkiNowaIkona114.png in Resources */,
+				EFAA758B1817CCEF0049C306 /* photo.png in Resources */,
+				EF887ACF1AD1D1A7005018D8 /* FontAwesome.ttf in Resources */,
+				EF964D0217C94E9C003E1E43 /* Moje wydatki free-Info.plist in Resources */,
+				EF3117A81A00362900C6AF2B /* mojeWydatkiNowaIkona57.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF84864D1753EDF2001DCAB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF84865C1753EDF2001DCAB8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EF84864E1753EDF2001DCAB8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF8486231753EDF2001DCAB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF377AC719C0D80D0021C22F /* AdViewController.m in Sources */,
+				EFE6BBD719616C0E0054E055 /* ExpenseMapViewController.m in Sources */,
+				EF69852419F80294001BC0F5 /* CommonExtensions.m in Sources */,
+				EF8486371753EDF2001DCAB8 /* main.m in Sources */,
+				EF84863B1753EDF2001DCAB8 /* AppDelegate.m in Sources */,
+				EF887ACD1AD1D1A7005018D8 /* NSString+FontAwesome.m in Sources */,
+				EF84864A1753EDF2001DCAB8 /* ViewController.m in Sources */,
+				EF84866A1753EE1D001DCAB8 /* Model.xcdatamodeld in Sources */,
+				EF69853619F849D0001BC0F5 /* BudgetCategory.m in Sources */,
+				EF84674A17548DE100A0AA9B /* NewExpenseController.m in Sources */,
+				EF52C334180F30810002AEEB /* UIViewController+ImageCaptureViewController.m in Sources */,
+				EF69853B19F849D1001BC0F5 /* Expense.m in Sources */,
+				EF333E461ACBD20D00BA4463 /* SZTextView.m in Sources */,
+				EF71ACF31951CD5500420D4A /* BudgetViewController.m in Sources */,
+				EF819A6C1754DD2600A1F6CD /* ShowHistoryControllerViewController.m in Sources */,
+				EF887AD11AD1D1A7005018D8 /* UIFont+FontAwesome.m in Sources */,
+				EF5B74AB180975FF00C34A90 /* ImagePreviewViewController.m in Sources */,
+				EF3A61261959BC2500122A65 /* NSDate+Reporting.m in Sources */,
+				EF333E501ACD71E800BA4463 /* UIView+Toast.m in Sources */,
+				EF819A6F1754F34300A1F6CD /* ExpensesTableViewController.m in Sources */,
+				EF819A731754F42C00A1F6CD /* ExpenseTableCell.m in Sources */,
+				EFEF61A117FC7450005E351E /* ExpenseAddedViewController.m in Sources */,
+				EF887ABE1ACEE3A7005018D8 /* UIView+Animations.m in Sources */,
+				EF887ACB1AD1D1A7005018D8 /* FAImageView.m in Sources */,
+				EFC439F0195224A5008ECC50 /* BudgetTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF84864B1753EDF2001DCAB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF84865F1753EDF2001DCAB8 /* wydatkiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF8486561753EDF2001DCAB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF8486261753EDF2001DCAB8 /* Moje wydatki */;
+			targetProxy = EF8486551753EDF2001DCAB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF80DC5D176EDEBE00EE2755 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF80DC5C176EDEBE00EE2755 /* pl */,
+				EF80DC5E176EDED300EE2755 /* en */,
+				EFE7496F177ABF3C003AAFA8 /* de */,
+				EFE74970177ABF61003AAFA8 /* ru */,
+				EF92DF8E1ADE568500EE269C /* nb */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		EF8486331753EDF2001DCAB8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF8486341753EDF2001DCAB8 /* en */,
+				EF80DC5F176EE22A00EE2755 /* pl */,
+				EFE74972177B0A3E003AAFA8 /* de */,
+				EFE74973177B0A3F003AAFA8 /* ru */,
+				EF92DFA21ADFC94000EE269C /* nb */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EF8486421753EDF2001DCAB8 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF92DF911ADE618D00EE269C /* Base */,
+				EF92DF941ADE620C00EE269C /* en */,
+				EF92DF961ADE620E00EE269C /* nb */,
+				EF92DF981ADE621100EE269C /* de */,
+				EF92DF9A1ADE622300EE269C /* pl */,
+				EF92DF9C1ADE622900EE269C /* ru */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		EF8486451753EDF2001DCAB8 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF92DF921ADE618D00EE269C /* Base */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		EF84865A1753EDF2001DCAB8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF84865B1753EDF2001DCAB8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EF964CFE17C94E88003E1E43 /* MainStoryboard_iPhoneFree.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF92DF901ADE618D00EE269C /* Base */,
+			);
+			name = MainStoryboard_iPhoneFree.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF8486601753EDF2001DCAB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF8486611753EDF2001DCAB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF8486631753EDF2001DCAB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-free";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+					"$(SRCROOT)/../",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wydatki/wydatki-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					../submodules,
+				);
+				INFOPLIST_FILE = "wydatki/wydatki-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EF8486641753EDF2001DCAB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-free";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+					"$(SRCROOT)/../",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wydatki/wydatki-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					../submodules,
+				);
+				INFOPLIST_FILE = "wydatki/wydatki-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EF8486661753EDF2001DCAB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/wydatki.app/wydatki";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wydatki/wydatki-Prefix.pch";
+				INFOPLIST_FILE = "wydatkiTests/wydatkiTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		EF8486671753EDF2001DCAB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/wydatki.app/wydatki";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wydatki/wydatki-Prefix.pch";
+				INFOPLIST_FILE = "wydatkiTests/wydatkiTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF8486221753EDF2001DCAB8 /* Build configuration list for PBXProject "wydatki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF8486601753EDF2001DCAB8 /* Debug */,
+				EF8486611753EDF2001DCAB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF8486621753EDF2001DCAB8 /* Build configuration list for PBXNativeTarget "Moje wydatki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF8486631753EDF2001DCAB8 /* Debug */,
+				EF8486641753EDF2001DCAB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF8486651753EDF2001DCAB8 /* Build configuration list for PBXNativeTarget "wydatkiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF8486661753EDF2001DCAB8 /* Debug */,
+				EF8486671753EDF2001DCAB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EF8486681753EE1D001DCAB8 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EF69852919F8427A001BC0F5 /* Model_category_renamed.xcdatamodel */,
+				EF377ABA19BF52B00021C22F /* Model_photo_categories_indexBudget.xcdatamodel */,
+				EF71ACF01951C41500420D4A /* Model_photo_categories.xcdatamodel */,
+				EFD695AC1806D0A1005614D8 /* Model_photo.xcdatamodel */,
+				EF8486691753EE1D001DCAB8 /* Model.xcdatamodel */,
+			);
+			currentVersion = EF69852919F8427A001BC0F5 /* Model_category_renamed.xcdatamodel */;
+			name = Model.xcdatamodeld;
+			path = wydatki/Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EF84861F1753EDF2001DCAB8 /* Project object */;
+}

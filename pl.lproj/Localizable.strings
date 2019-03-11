@@ -1,0 +1,59 @@
+/* 
+  Localizable.strings
+  wydatki
+
+  Created by jarek on 13.06.2013.
+  Copyright (c) 2013 majatech. All rights reserved.
+*/
+
+//NewExpenseController
+"EntryAdded" = "Dodano wydatek";
+"NewExpense" = "Nowy wydatek";
+"Amount" = "Kwota";
+"Description" = "Opis";
+"Date" = "Data";
+"AddExpense" = "Dodaj wydatek";
+
+"Cash" = "Gotówka";
+"Card" = "Karta";
+"Transfer" = "Przelew";
+"AtmMachine" = "Bankomat";
+
+// kategorie i budżety
+"Category" = "Kategoria";
+"No Category" = "Brak kategorii";
+"Budget categories" = "Kategorie budżetów";
+"All" = "Wszystkie";
+"Category                         Expense limit" ="Kategoria                     limit wydatków";
+"Budget" = "Budżet";
+
+//co nowego
+"What's new" = "Co nowego:";
+"What's new in this version" = "Poprawki.";
+
+//ShowHistoryController
+"From" = "Od";
+"To" = "Do";
+"ExpenseTypeFilterLabel" = "Operacje do wyszukania";
+"SearchExpenses" = "Wyszukaj wydatki";
+"SavedExpenses" = "Zapisane wydatki";
+
+//Expenses
+"PaymentType" = "Typ";
+"AtmWithdraw" = "Wypłata w bankomacie";
+
+
+"Clear" = "Wyczyść";
+
+"OK" = "OK";
+"Photo" = "Zrób zdjęcie";
+"Library" = "Wybierz z albumu";
+"Cancel" = "Anuluj";
+"chooseInput" = "Wybierz";
+
+"Information" = "Informacja";
+"Updated" = "Zapisano";
+"Update" = "Zapisz";
+
+
+

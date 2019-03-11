@@ -1,0 +1,56 @@
+/* 
+  Localizable.strings
+  wydatki
+
+  Created by jarek on 13.06.2013.
+  Copyright (c) 2013 majatech. All rights reserved.
+*/
+
+//NewExpenseController
+
+"EntryAdded" = "lagret";
+"NewExpense" = "nye kostnads";
+"Amount" = "beløp";
+"Description" = "beskrivelse";
+"Date" = "dato";
+"AddExpense" = "legge bekostning";
+
+"Cash" = "kontanter";
+"Card" = "kort";
+"Transfer" = "transfer";
+"AtmMachine" = "Minibank";
+//budżety
+"Category" = "kategori";
+"No Category" = "ingen kategori";
+"Budget categories" = "budsjetter";
+"All" = "alt";
+"Category                         Expense limit" ="Kategori                        kostnadsgrense";
+"Budget" = "budsjett";
+
+//co nowego
+"What's new" = "hva er nytt";
+"What's new in this version" = "Norsk støtte.";
+
+//ShowHistoryController
+
+"ExpenseTypeFilterLabel" = "operasjoner";
+"SearchExpenses" = "Utgifter";
+"SavedExpenses" = "Spart utgifter";
+
+//Expenses
+"PaymentType" = "Typen";
+"AtmWithdraw" = "Minibank";
+
+
+"Clear" = "Klare";
+
+"OK" = "OK";
+"Photo" = "Ta bilde";
+"Library" = "Velg fra bibliotek";
+"Cancel" = "Avbryte";
+"chooseInput" = "Velge";
+
+"Information" = "Informasjon";
+"Updated" = "oppdatert";
+"Update" = "spare";
+

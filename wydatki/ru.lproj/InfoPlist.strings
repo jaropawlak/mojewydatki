@@ -1,0 +1,7 @@
+/* Localized versions of Info.plist keys */
+"CFBundleDisplayName"="Мои расходы";
+"NSLocationAlwaysUsageDescription" = "запоминает, где вы потратили свои деньги, автоматически предлогая соответствующую категорию.";
+"NSLocationWhenInUseUsageDescription" = "Zзапоминает, где вы потратили свои деньги, автоматически предлогая соответствующую категорию.";
+
+"NSPhotoLibraryUsageDescription" ="Использовать фотографию вместо описания";
+"NSCameraUsageDescription" ="Использовать фотографию вместо описания";
