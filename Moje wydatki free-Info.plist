@@ -38,9 +38,7 @@
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>1.2.6.4</string>
-	<key>FacebookAppID</key>
-	<string>195356220643581</string>
+	<string>1.2.6.4</string>	
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSCameraUsageDescription</key>
