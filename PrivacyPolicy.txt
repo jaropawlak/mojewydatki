@@ -1,0 +1,3 @@
+This app doesn't send your user details anywhere. Your data is yours only. 
+You also don't login and don't share your personal data.
+That's it for privacy policy - you keep your privacy at your device.
